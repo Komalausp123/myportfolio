@@ -37,7 +37,7 @@
           text.textContent = texts[index];
           text.classList.add('alternate-text');
           index = (index + 1) % texts.length;
-        }, 2000); // Change text every 2 seconds (2000 milliseconds)
+        }, 4000); // Change text every 2 seconds (2000 milliseconds)
       }, 4000); // Display each text for 4 seconds (4000 milliseconds)
     };
     $(document).ready(function () {
